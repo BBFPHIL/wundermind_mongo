@@ -1,0 +1,162 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#top
+{
+  width: 100%;
+  background: #919191;
+  height: 50px;
+  border: 1px solid #353535;
+}
+
+#top h1{
+  line-height: 30px;
+  font-size: 24px;
+  font-family: Anivers;
+}
+
+#middle
+{
+  background: #d5d5d6;
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin: 0px;
+  padding: 60px 0px 90px;
+  background: #ffffff; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #7db9e8 0%, #ffffff 0%, #c4c4c4 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(0%,#7db9e8), color-stop(0%,#ffffff), color-stop(100%,#c4c4c4)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#7db9e8 0%,#ffffff 0%,#c4c4c4 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  #ffffff 0%,#7db9e8 0%,#ffffff 0%,#c4c4c4 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#7db9e8 0%,#ffffff 0%,#c4c4c4 100%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  #ffffff 0%,#7db9e8 0%,#ffffff 0%,#c4c4c4 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c4c4c4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ 
+}
+
+.selector{
+  float: left;
+  width: 480px;
+  height: 210px;
+  height: auto;
+  border-right: 1px solid #666666;
+  margin: 0px 15px 0px;
+}
+
+.selector h1{
+  font-family: helvetica;
+  font-size: 27px;
+  line-height: 36px;
+  letter-spacing: .6px;
+}
+
+.selector h2{
+  font-family: helvetica;
+  font-size: 16px;
+  margin-top: -5px;
+  line-height: 0px;
+  font-weight: 600;
+}
+
+.selector h3{
+  font-family: helvetica;
+  font-size: 12px;
+  line-height: 0px;
+  font-weight: 300;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.selector select{
+  width: 320px;
+  padding: 20px;
+  display: block;
+  margin-top: -10px;
+  background: #FFF;
+  font-size: 16px;
+     border: 1px solid #ccc;
+     height: 34px;
+}
+
+.right{
+  width: 240px;
+  float: right;
+  text-align: center;
+  border-right: 0px;
+}
+
+.right button{
+  width: 200px;
+  height: 65px;
+  text-align: center;
+  background-color: #5a99f7;
+  color: #FFF;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 3px;}
+
+
+.right_div h3{
+  font-family: helvetica;
+  line-height: 10px;
+  font-size: 16px;
+  margin: 0px 0px 15px;
+}
+
+.right_div textarea{
+  width: 225px;
+}
+
+.right_div button{
+  float: right;
+}
+
+#bottom
+{
+  background: #3a3a3a;
+  top: 0px;
+  margin: -20px 0px;
+  padding: 20px 0px;
+  height: 100%;
+  background: #5b5b5b; /* Old browsers */
+  background: -moz-linear-gradient(top,  #5b5b5b 0%, #000000 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5b5b5b), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #5b5b5b 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #5b5b5b 0%,#000000 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #5b5b5b 0%,#000000 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #5b5b5b 0%,#000000 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b5b5b', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+  
+}
+
+#bottom h2
+{
+  line-height: 20px;
+  margin: 20px 0px;
+  color: #FFF;
+  font-family: Anivers;
+  
+}
+
+#bottom p
+{
+  line-height: 19px;
+  font-size: 14px;
+  font-family: helvetica;
+  color: #FFF;
+}
+
+#centerMe
+{
+  width: 800px;
+  margin: 0px auto;
+}
+
+#top h1{
+  text-align: right;
+}
+
+.clear
+{clear: both;}
