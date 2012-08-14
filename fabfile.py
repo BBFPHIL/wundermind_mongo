@@ -3,10 +3,12 @@ from fabric.api import env, sudo, cd, local, run, settings, prefix, task
 from fabric.operations import get, put, open_shell
 from fabric.colors import green, red
 
-REMOTE_BASE_PATH = '/var/www'
+REMOTE_BASE_PATH = '/var/www/'
 
+key_path = path.join(pardir, pardir, "pwalker.pem")
 env.hosts = ['ec2-54-245-118-170.us-west-2.compute.amazonaws.com']
 env.user = 'ubuntu'
+env.key_filename = key_path
 
 @task
 def copy_files():
@@ -18,11 +20,11 @@ def copy_files():
     if path.exists('/tmp/wundermind.zip'):
         local('rm -r /tmp/wundermind.zip')
 
-    local('git archive --format=zip --prefix=wundermind/ HEAD > /tmp/wundwermind.zip')
+    local('git archive --format=zip --prefix=wundermind/ HEAD > /tmp/wundermind.zip')
     put('/tmp/wundermind.zip', '/tmp')
     
     with cd(REMOTE_BASE_PATH):
-        run('unzip -o /tmp/wundwermind.zip')
+        run('unzip -o /tmp/wundermind.zip')
 
 
 @task
