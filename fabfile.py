@@ -58,7 +58,7 @@ def collectstatic():
 
 
 def restart_supervisord():
-    run('supervisorctl restart wundermind')
+    sudo('supervisorctl restart wundermind')
         
 @task
 def deploy():
