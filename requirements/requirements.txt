@@ -1,6 +1,7 @@
 Django==1.4.1
 Fabric==1.4.3
 distribute==0.6.27
+gunicorn==0.14.6
 mongoengine==0.6.20
 pycrypto==2.6
 pymongo==2.2.1
