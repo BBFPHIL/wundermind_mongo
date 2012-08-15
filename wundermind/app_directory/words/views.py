@@ -13,3 +13,6 @@ class IndexView(TemplateView):
     This view only show a template for now
     """
     template_name = "index.html"
+
+
+
